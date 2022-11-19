@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <link rel="stylesheet"href="code.css" /> 
+<h1>Quiz Creator</h1>
+  <div class="addQuestions">
+    <input id="questionInput" type="text" placeholder="Question">
+    <input id="correctInput" type="text" placeholder="Correct Answer">
+    <input id="wrongOneInput" type="text" placeholder="Wrong Answer 1">
+    <input id="wrongTwoInput" type="text" placeholder="Wrong Answer 2">
+    <button onclick="handlers.addQuestion()">Add Question</button>
+  </div>
+  <div class="info">
+    <li id="NumberQuestionsInQuiz">You currently have 0 questions added to your quiz</li>
+    <button onclick="view.displayQuestions()" id="startQuiz">Start Quiz</button>
+  </div>
+  <p class="answersCorrect"></p>
+  <div class="questionsWrapper"></div>
+  <script src="Java.jsS"></script>
+  </html>
+</body>
